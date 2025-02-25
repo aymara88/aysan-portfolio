@@ -2,10 +2,17 @@ import React from 'react';
 
 const Projects: React.FC = () => {
   return (
-    <div className="projects">
+    <section id="projects">
       <h2>My Projects</h2>
-      <p>Showcase your portfolio projects here with descriptions, links, and images.</p>
-    </div>
+      <div className="project-card">
+        <img src="project-thumbnail.jpg" alt="Project Thumbnail" />
+        <h3>Project Name</h3>
+        <p>A brief description of what the project is and the technologies used.</p>
+        <a href="https://live-demo-link.com" target="_blank">View Demo</a>
+        <br/>
+        <a href="https://github.com/yourusername/project-repo" target="_blank">View Code</a>
+      </div>
+    </section>
   );
 };
 

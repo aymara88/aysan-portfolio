@@ -2,10 +2,19 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <div className="about">
+    <section id="about">
       <h2>About Me</h2>
-      <p>Write about your background, skills, and experience here.</p>
-    </div>
+      <p>I'm a frontend developer with a passion for creating user-friendly, responsive web applications.</p>
+      <h3>Skills</h3>
+      <ul>
+        <li>React.js</li>
+        <li>JavaScript</li>
+        <li>HTML & CSS</li>
+        <li>SASS/SCSS</li>
+        <li>Git/GitHub</li>
+      </ul>
+    </section>
+
   );
 };
 

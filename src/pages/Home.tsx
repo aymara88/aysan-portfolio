@@ -1,11 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
   return (
-    <div className="home">
-      <h2>Welcome to My Portfolio</h2>
-      <p>This is where you introduce yourself to the world!</p>
-    </div>
+    <header>
+      <h1>Hi, I'm [Your Name]</h1>
+      <p>Frontend Developer passionate about creating beautiful and functional user interfaces with React and modern web technologies.</p>
+      <button><Link to='/projects'>Explore my projects</Link></button>
+    </header>
   );
 };
 

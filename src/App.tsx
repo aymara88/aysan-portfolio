@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import './styles/App.scss';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './styles/styles.scss';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/aysan-portfolio/">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
